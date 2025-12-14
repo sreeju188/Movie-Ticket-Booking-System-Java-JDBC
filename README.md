@@ -35,6 +35,8 @@ book tickets, and view booking history.
 Database schema is provided..
 Use the sql commands provided in SQL commands file to create schema and it's related tables..
 
+## Note
+SQL commands is not part of our project folder its just sql commands to create schema and table required for our project
 
 ## How to Run
 1. Clone the repository
