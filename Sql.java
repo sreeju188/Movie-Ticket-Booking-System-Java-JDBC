@@ -12,7 +12,7 @@ public class Sql {
         if (conn != null)
             return conn;
 
-        String database = "Database name";//your dadabase name
+        String database = "Database name";//your database name
         String username = "root";
         String password = "your  password";//your sql workbench password
 
@@ -30,4 +30,5 @@ public class Sql {
         return conn;
     }
 }
+
 
