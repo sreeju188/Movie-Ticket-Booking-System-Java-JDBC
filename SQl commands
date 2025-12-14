@@ -1,0 +1,30 @@
+CREATE DATABASE Movie_Ticket_Booking_System; 
+USE Movie_Ticket_Booking_System;
+
+CREATE TABLE admin (
+    user VARCHAR(50) PRIMARY KEY,
+    pass VARCHAR(50),
+    theatername VARCHAR(50)
+);
+
+CREATE TABLE user (
+    user VARCHAR(50) PRIMARY KEY,
+    pass VARCHAR(50)
+);
+
+CREATE TABLE movies (
+    id INT PRIMARY KEY,
+    theatername VARCHAR(50),
+    moviename VARCHAR(50),
+    showtime TIME,
+    totalseats INT,
+    price INT
+);
+
+CREATE TABLE booking (
+    user VARCHAR(50),
+    moviename VARCHAR(50),
+    theatername VARCHAR(50),
+    showtime TIME,
+    seats VARCHAR(50)
+);
